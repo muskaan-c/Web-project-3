@@ -1,0 +1,113 @@
+/*
+    Color family: analogous
+    Primary color: #585A3A
+    Accent color: #485A3A, #5A4C3A
+    Neutral color: #EAD7BC, #F6EEE3, white
+    I think that these colors represents the purpose of the website because,
+    we were asked to make a website about a Treaty in Manitoba of our choice.
+    I chose treaty 2, which is releated to land.
+    My color pallet had two shades of green and one shade of brown.
+    I think that these color symbolise land and nature.
+*/
+
+/* setting a background color for this webpage*/
+body{
+    background-color:#EAD7BC;
+}
+
+/*Class to make a border around every div*/
+.section{ 
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: dotted;
+    background-color: #F6EEE3;
+}
+
+/*for h1's text color*/
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 20px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*for paragraph font's size and making the text in center*/
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: century-gothic, sans-serif;
+}
+
+/*Class to style the nav-bar*/
+.nav-bar{
+    background-color: #585A3A;
+    border-style: solid;
+}
+
+/* class for navigation bar links*/
+.nav-link{ 
+    display: inline-block;
+    background-color: #485A3A;
+    text-align: center;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: white;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+/*Changes the color of the nav bar link when you hover over it*/
+.nav-link:hover{
+    background-color: #5A4C3A;
+}
+
+/* class for styling nav ul*/
+.nav-ul{
+    list-style: none;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+
+    /*Centering the elements in nav bar*/
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*Class for the color of links for sources*/
+.links{
+    color: #0000D6;
+}
+
+/*Class to make the maps and embeded youtube video in center*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Class to set a background color of footer*/
+.footer-bcolor{
+    background-color: #5A4C3A;
+}
+/*class for back to top link in footer*/
+.footer-link{
+    border: solid;
+    border: black;
+    color: white;
+    margin: 14px;
+    font-size: 25px;
+}
+
+/*class for text in footer*/
+.footer-text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
